@@ -75,11 +75,13 @@ a {
     color: #1F2937;
     display: flex;
     justify-content: center;
+    margin-bottom: 32px;
 }
 
 img {
     width: 100px;
     height: 100px;
+    border-radius: 20px;
 }
 
 .wholeinfo {
@@ -97,4 +99,12 @@ img {
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+}
+
+.call-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
 }
