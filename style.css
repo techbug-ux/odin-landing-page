@@ -2,6 +2,7 @@ body {
     font-family: "Roboto";
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .footer {
@@ -107,4 +108,10 @@ img {
     justify-content: center;
     display: flex;
 
+}
+
+.img-top {
+    width: 500px;
+    height: 250px;
+    border-radius: 0%;
 }
