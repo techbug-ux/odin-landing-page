@@ -18,6 +18,10 @@ button {
 
 ul {
     list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -28,9 +32,39 @@ a {
 
 .header {
     background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
 }
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+}
+
+.container {
+    background: #1F2937;
+}
+
+.hook {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hookdes {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.button-one {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-color: #3882f6;
+}
+
+.button-two {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
 }
