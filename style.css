@@ -4,3 +4,14 @@ body {
     flex-direction: column;
 }
 
+.footer {
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+}
+
+button {
+    border-radius: 30px;
+}
