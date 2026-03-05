@@ -68,3 +68,23 @@ a {
     color: #F9FAF8;
     border-color: #F9FAF8;
 }
+
+.random {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.wholeinfo {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+}
