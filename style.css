@@ -88,3 +88,13 @@ img {
     gap: 52px;
     text-align: center;
 }
+
+.quotepage {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
