@@ -150,7 +150,20 @@ img {
     align-items: center;
     justify-content: center;
     display: flex;
+     background: white;
+    width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    gap: 16px;
+    padding: 16px;
 
+}
+
+.call-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
 }
 
 .img-top {
@@ -158,3 +171,4 @@ img {
     height: 250px;
     border-radius: 0%;
 }
+
