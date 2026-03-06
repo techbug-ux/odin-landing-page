@@ -11,11 +11,11 @@ body {
     align-items: center;
     justify-content: center;
     color: #F9FAF8;
-    position: fixed;
+    /* position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 52px;
+    height: 52px; */
 }
 
 button {
@@ -95,16 +95,27 @@ img {
     justify-content: center;
     gap: 52px;
     text-align: center;
+    padding: 70px;
 }
 
 .quotepage {
     background-color: #E5E7EB;
+    padding: 80px;
 }
 
 .quote {
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+    display: flex;
+    padding: 20px;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 900;
+    align-items: flex-end;
 }
 
 .call-action {
