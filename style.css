@@ -99,7 +99,15 @@ a {
 .button-two {
     background-color: #3882f6;
     color: #F9FAF8;
-    border-color: #F9FAF8;
+    border-color: #3882f6;
+    padding: 20px;
+    height: 2px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    border-color: #E5E7EB;
+    box-shadow: #E5E7EB;
+    font-weight: 600;
 }
 
 .random {
@@ -151,14 +159,13 @@ img {
     align-items: center;
     justify-content: center;
     display: flex;
-    background: white;
+    background: #3882f6;
     width: 480px;
     border-radius: 10px;
     box-shadow: 2px 4px 16px rgba(0,0,0,.2);
     gap: 16px;
-    padding: 6px;
-    
-
+    padding: 30px;
+    color: #F9FAF8;
 }
 
 .call-next {
@@ -175,3 +182,6 @@ img {
     border-radius: 0%;
 }
 
+.action {
+    font-size: 15px;
+}
