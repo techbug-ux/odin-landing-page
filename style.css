@@ -50,24 +50,48 @@ a {
 
 .container {
     background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .hook {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    display: flex;
+    flex-shrink: 0;
+    width: 500px;
 }
 
 .hookdes {
     color: #F9FAF8;
     font-size: 18px;
+    display: flex;
+    flex-shrink: 0;
+    width: 450px;
+    flex-grow: 1;
 }
 
 .button-one {
     background-color: #3882f6;
     color: #F9FAF8;
     border-color: #3882f6;
+    display: flex;
+    flex-grow: 1;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .button-two {
     background-color: #3882f6;
@@ -115,7 +139,7 @@ img {
 .quote-author {
     display: flex;
     justify-content: flex-end;
-    font-size: 900;
+    font-weight: 600;
     align-items: flex-end;
 }
 
